@@ -13,6 +13,15 @@
         "author": {
           "name": "niceanyh"
         }
+      },
+      {
+        "name": "style-mimic",
+        "source": "./skills/style-mimic",
+        "description": "Analyzes writing style from reference text and creates new content matching that style. Use when users want to: (1) Mimic a specific author's writing style, (2) Create content with consistent brand voice, (3) Transform ideas into styled articles, or (4) Generate personal content matching an established writing pattern. Triggered by requests like '模仿这篇文章', 'write in the style of', 'match this writing style', or 'create content using this tone'.",
+        "version": "1.0",
+        "author": {
+          "name": "niceanyh"
+        }
       }
     ]
   }
