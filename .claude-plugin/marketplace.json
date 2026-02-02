@@ -2,12 +2,12 @@
     "name": "niceanyh-claude-skills",
     "owner": {
       "name": "niceanyh",
-      "email": "sghyan16@github.com"
+      "email": "niceanyh@gamil.com"
     },
     "plugins": [
       {
         "name": "substack-notes",
-        "source": "./substack-notes",
+        "source": "./skills/substack-notes",
         "description": "Generate high-performing Substack notes using proven structural patterns and psychology while maintaining your authentic voice. Use when user wants to write Substack notes, mentions 'write a note', 'Substack post', or needs short-form social content for Substack.",
         "version": "1.0",
         "author": {
