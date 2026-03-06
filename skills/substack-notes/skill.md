@@ -163,6 +163,7 @@ Each note type has a proven formula. Apply the structure while using the user's 
 - Lots of white space
 - Easy scanning
 - No excessive formatting
+- English ONLY
 
 **What to Include:**
 - The note text

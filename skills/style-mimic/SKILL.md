@@ -9,14 +9,24 @@ Systematically analyze writing style from reference text and generate new conten
 
 ## Workflow
 
-### Step 1: Receive Reference Text
+### Step 1: Choose Analysis Mode
+
+Ask the user to choose:
+- **Option A**: Use a pre-saved style analysis from `references/` directory
+- **Option B**: Analyze new reference text
+
+If Option A, list available saved styles in `references/` directory (e.g., "李盆风格.md") and load the selected one.
+
+If Option B, proceed to receive reference text.
+
+### Step 1B: Receive Reference Text (if Option B chosen)
 
 Ask the user to provide the reference text for style analysis. Accept:
 - Direct text paste
 - File path to read
 - URL to fetch
 
-### Step 2: Conduct Style Analysis
+### Step 2: Conduct Style Analysis (if Option B chosen)
 
 Load the comprehensive analysis framework:
 
@@ -39,7 +49,11 @@ Output the analysis in Markdown format following the structure in the framework.
 2. **Detailed dimension-by-dimension breakdown**
 3. **Overall style summary**
 
+**Optional**: If the user wants to save this analysis for future use, save it to `references/[StyleName].md` with a descriptive name.
+
 ### Step 3: Receive Source Content
+
+(This step applies whether using a saved style or newly analyzed style)
 
 Ask the user to provide:
 - The idea/content to be transformed
@@ -74,3 +88,5 @@ Output the generated content in Markdown format **without explanatory commentary
 - The generation phase should produce only the final styled content
 - For long reference texts, identify the most consistent patterns
 - For varied reference texts, note and account for intentional style shifts
+- **Saved styles**: Pre-analyzed styles are stored in `references/` directory and can be reused without re-analysis
+- When saving a new style analysis, use a descriptive name that identifies the author or style characteristics
