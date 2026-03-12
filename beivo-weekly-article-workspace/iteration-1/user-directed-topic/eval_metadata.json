@@ -1,0 +1,13 @@
+{
+  "eval_id": 2,
+  "eval_name": "user-directed-topic",
+  "prompt": "最近 H3N2 流感比较热，帮我写篇科普文章",
+  "assertions": [
+    {"id": "word_count", "description": "文章正文字数 ≥ 800 字"},
+    {"id": "no_brand_name", "description": "正文中不出现\"倍沃\"或\"倍沃医学\""},
+    {"id": "has_topic_analysis", "description": "输出包含选题分析部分"},
+    {"id": "has_brand_notes", "description": "输出包含品牌植入说明部分（仅技能版本应有）"},
+    {"id": "topic_respected", "description": "文章核心话题确实是 H3N2 流感"},
+    {"id": "implicit_brand_embed", "description": "技术视角段落隐性传递了品牌价值观，无广告语气"}
+  ]
+}

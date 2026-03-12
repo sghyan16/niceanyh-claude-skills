@@ -1,0 +1,13 @@
+{
+  "eval_id": 0,
+  "eval_name": "standard-trigger",
+  "prompt": "帮我写本周倍沃科普文章",
+  "assertions": [
+    {"id": "word_count", "description": "文章正文字数 ≥ 800 字"},
+    {"id": "no_brand_name", "description": "正文中不出现\"倍沃\"或\"倍沃医学\""},
+    {"id": "has_topic_analysis", "description": "输出包含选题分析部分"},
+    {"id": "has_brand_notes", "description": "输出包含品牌植入说明部分（仅技能版本应有）"},
+    {"id": "tech_domain_coverage", "description": "正文提及 DNA提取/核酸检测/病毒鉴定/法医鉴定 至少一项"},
+    {"id": "structure_complete", "description": "文章有引子、主体、结语三段式结构"}
+  ]
+}

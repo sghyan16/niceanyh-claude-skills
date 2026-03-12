@@ -1,0 +1,26 @@
+{
+  "skill_name": "beivo-weekly-article",
+  "evals": [
+    {
+      "id": 0,
+      "name": "standard-trigger",
+      "prompt": "帮我写本周倍沃科普文章",
+      "expected_output": "包含本周选题分析、约1000字科普文章正文、以及品牌植入说明三个部分的完整输出",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "vague-trigger",
+      "prompt": "这周写什么，帮我生成科普内容",
+      "expected_output": "识别出品牌科普文章的需求，联网搜索热点，输出完整的选题+文章",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "user-directed-topic",
+      "prompt": "最近 H3N2 流感比较热，帮我写篇科普文章",
+      "expected_output": "以H3N2为主题，进行补充搜索，撰写科普文章，并隐性植入倍沃品牌调性",
+      "files": []
+    }
+  ]
+}

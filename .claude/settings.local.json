@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -X POST http://127.0.0.1:8000/api/v1/collections/voice_records/query \\\\\n  -H \"Content-Type: application/json\" \\\\\n  -d '{\"query_texts\": [\"工作 事业 创业 项目 收入 钱\"], \"n_results\": 10}')",
+      "Bash(curl -s -X POST http://127.0.0.1:8000/api/v1/collections/voice_records/query \\\\\n  -H \"Content-Type: application/json\" \\\\\n  -d '{\"query_texts\": [\"焦虑 迷茫 困惑 压力 痛苦 挣扎\"], \"n_results\": 10}')",
+      "Bash(curl -s -X POST http://127.0.0.1:8000/api/v1/collections/voice_records/query \\\\\n  -H \"Content-Type: application/json\" \\\\\n  -d '{\"query_texts\": [\"个人成长 学习 读书 成长 提升\"], \"n_results\": 8}')",
+      "Bash(curl -s -X POST http://127.0.0.1:8000/api/v1/collections/voice_records/query \\\\\n  -H \"Content-Type: application/json\" \\\\\n  -d '{\"query_texts\": [\"哲学 思考 意识 复杂系统 涌现 AI本质 科学\"], \"n_results\": 8}')",
+      "Bash(curl -s -X POST http://127.0.0.1:8000/api/v1/collections/voice_records/query \\\\\n  -H \"Content-Type: application/json\" \\\\\n  -d '{\"query_texts\": [\"英国 格拉斯哥 留学 出国 海外\"], \"n_results\": 8}')",
+      "Bash(curl -s -X POST http://127.0.0.1:8000/api/v1/collections/voice_records/query \\\\\n  -H \"Content-Type: application/json\" \\\\\n  -d '{\"query_texts\": [\"女朋友 感情 爱情 关系 分离\"], \"n_results\": 6}')",
+      "Bash(curl -s -X POST http://127.0.0.1:8000/api/v1/collections/voice_records/query \\\\\n  -H \"Content-Type: application/json\" \\\\\n  -d '{\"query_texts\": [\"读博 PhD 博士 学术 论文 研究\"], \"n_results\": 6}')",
+      "Bash(curl -s -X POST http://127.0.0.1:8000/api/v1/collections/voice_records/query \\\\\n  -H \"Content-Type: application/json\" \\\\\n  -d '{\"query_texts\": [\"点流 产品 用户 APP 软件 录音\"], \"n_results\": 6}')",
+      "Bash(curl -s -X POST http://127.0.0.1:8000/api/v1/collections/voice_records/query \\\\\n  -H \"Content-Type: application/json\" \\\\\n  -d '{\"query_texts\": [\"云南 回家 父母 家乡 昆明\"], \"n_results\": 5}')"
+    ]
+  }
+}
